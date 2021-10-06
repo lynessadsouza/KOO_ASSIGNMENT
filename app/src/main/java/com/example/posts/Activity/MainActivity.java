@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
 
                 for (PostModelClass.data data1 : data) {
 
-                    Log.d("hi ", "" + data1.getId());
+                    Log.d("id is  ", "" + data1.getId());
                     Log.d("hi ", "" + data1.getId());
                     Log.d("hi ", "" + data1.getTitle());
                     Log.d("hi the data is  ", "" + data1);

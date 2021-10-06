@@ -56,9 +56,10 @@
                     android:layout_height="1dp" />
 
                 <TextView
-                    android:padding="5dp"
+                    android:padding="8dp"
                     android:id="@+id/post_body"
                     android:textSize="15sp"
+                    android:paddingBottom="4dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center_horizontal"
