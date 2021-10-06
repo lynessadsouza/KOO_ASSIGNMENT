@@ -11,11 +11,19 @@
         android:id="@+id/posts"
         android:layout_width="match_parent"
         android:layout_height="55dp"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:textColor="@color/black"
         android:text="@string/your_post"
       android:gravity="center"/>
 
+    <com.google.android.material.textview.MaterialTextView
+
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+
+        android:background="@color/gray1"
+
+        android:gravity="center"/>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recview"
